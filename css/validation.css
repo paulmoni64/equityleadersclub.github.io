@@ -1,0 +1,22 @@
+.contact input.valid {
+    border: #c9e6ff solid 2px;
+}
+
+.contact input.invalid {
+    border: #e8491d solid 2px;
+}
+
+.contact h {
+    opacity: 0;
+    height: 0;
+    text-align: left;
+    color: #e8491d;
+    margin-bottom: 30px
+}
+
+.contact input.invalid h {
+    opacity: 5;
+    height: auto;
+    text-align: left;
+    margin-bottom: 30px
+}
